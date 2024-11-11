@@ -19,7 +19,7 @@ int main() {
         if (isValid) {
             break;
         }
-        if (i <= n-1) {
+        if (i < n-1) {
             isValid = true;
         }
     }
